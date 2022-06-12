@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        #logo{
+            width: 25vw;
+            padding-left: 37.5vw;
+            padding-top: 10vh;
+        }
+        #textContainer{
+            width:50vw;
+            padding-left: 25vw;
+            flex-direction: column;   
+            text-align: center; 
+        }
+        h1 {
+            text-align: center;
+        }
+
+        p{
+            padding-top:10px;
+        }
+        img{
+            width:100%;
+        }
+        ol,li{
+            padding-top:20px;
+            font-size:20px;
+            text-align: left;
+        }
+        ol{
+            max-width: 500px;
+        }
+        hr{
+            border-top:2px solid black;
+            margin-bottom:40px;
+        }
+        body{
+            font-size:20px;
+        }
+    </style>
+<body>
+
+
+
+    <img id="logo" src="logo.svg">
+    <h1><a href="./index.html">Google Slide Math Equations - Home Page</a></h1>
+    <div id="textContainer">
+        <h2>What does it do</h2>
+        <p>
+            Math Equations allows you to take your typeset languages and convert them to images to use inside of your slideshow.  Other features include the ability to reload a equation image and make changes and re upload to your presentation.   
+        </p>
+        <hr>
+        <h2>Permissions</h2>
+        <p>
+            For this extension to work it requires 2 permissions.  
+        </p>
+        <ul>
+            <li>script.container.ui - This permission allows me to draw the ui that appears on the side of the screen.</li>
+            <li>presentations - The presentation permissions allows me to interact with the google slide your working on.  Which i use to add a image onto or i use to grab the image data from a selected slide.</li>
+        </ul>
+        <p>
+            <a href="https://www.youtube.com/watch?v=wm7V0dP-pRA">here a video showing the permissions</a>
+        </p>
+        <hr>
+        <h2>Data</h2>
+        <p>
+            This application doesn't collect any user information.  The only information that is colelcted is things like error logs and usage numbers.  Data that is collected for every google slide extension.  For more information you can look at the <a href="./privacypolicy.html"></a>privacy policy page</a>
+        </p>
+
+        <hr>
+
+        <h1>How this extension works</h1>
+        <h2>How to create image</h2>
+
+        <image src="./AddImage.png"></image>
+
+        <ol>
+            <li>Type in your math equation in a latex,MathML,AsciiMath format</li>
+            <li>You'll see a small example of the expected output your going to generate </li>
+            <li>Then click the copy button which will add the image to your google slide</li>
+            <li>Your math equation has been added and you can know place it where you need it.</li>
+        </ol>
+        <hr>
+        <h2>How to modify a image that's been added</h2>
+        <image src="./bindingImageStep1.png"></image>
+
+        <ol>
+            <li>If you want to modify a image, fist selected it in the presentation</li>
+            <li>Then hit the bind button</li>
+        </ol>
+
+        <image src="./bindingImageStep2.png"></image>
+
+        <ol>
+            <li>After you hit bind you should see your equation loaded back into the text area</li>
+            <li>Know when you hit the copy button you will copy the image to the location of the image you selected when you hit bind</li>
+            <li>Know a new button has been added called unbind.  This button will unbind the image you've selected.  Which will make the copy button go back to just adding a image</li>
+        </ol>
+
+    </div>
+    
+    
+
+</body>
+
+</body>
+</html>
